@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>qfqwerq</title>
+	<link rel="stylesheet" type="text/css" href="/css/common/index.css">
+	<link rel="stylesheet" type="text/css" href="/css/No_Connection/index.css">
+	<link rel="stylesheet" type="text/css" href="/css/index/index.css">
+	<script src="/js/lib/amfe-flexible.min.js"></script>
+	<script type="text/javascript" src='/js/lib/zepto.min.js'></script>
+</head>
+<body>
+	<div>
+		<ul class="index_list"></ul>
+	</div>
+</body>
+<script type="text/javascript">
+	$(function() {
+		var listData = [
+			{id: 1, name: '1_No Connection', url: '/no_connection_1'},
+			{id: 2, name: '2_404 Error', url: '/404_error_2'},
+			{id: 3, name: '1_No Connection', url: '/no_connection_1'},
+			{id: 4, name: '1_No Connection', url: 'no_connection_1'},
+			{id: 5, name: '1_No Connection', url: 'no_connection_1'},
+			{id: 6, name: '1_No Connection', url: 'no_connection_1'},
+			{id: 7, name: '1_No Connection', url: 'no_connection_1'},
+			{id: 8, name: '1_No Connection', url: 'no_connection_1'},
+			{id: 9, name: '1_No Connection', url: 'no_connection_1'},
+			{id: 10, name: '1_No Connection', url: 'no_connection_1'},
+			{id: 11, name: '1_No Connection', url: 'no_connection_1'},
+			{id: 12, name: '1_No Connection', url: 'no_connection_1'},
+			{id: 13, name: '1_No Connection', url: 'no_connection_1'},
+			{id: 14, name: '1_No Connection', url: 'no_connection_1'},
+			{id: 15, name: '1_No Connection', url: 'no_connection_1'},
+			{id: 16, name: '1_No Connection', url: 'no_connection_1'},
+			{id: 17, name: '1_No Connection', url: 'no_connection_1'},
+			{id: 18, name: '1_No Connection', url: 'no_connection_1'},
+			{id: 19, name: '1_No Connection', url: 'no_connection_1'},
+			{id: 20, name: '1_No Connection', url: 'no_connection_1'},
+			{id: 21, name: '1_No Connection', url: 'no_connection_1'},
+			{id: 22, name: '1_No Connection', url: 'no_connection_1'},
+			{id: 23, name: '1_No Connection', url: 'no_connection_1'},
+			{id: 24, name: '1_No Connection', url: 'no_connection_1'},
+		]
+		var listHtml = ''
+
+		for (var i = 0; i < listData.length; i ++) {
+			listHtml += `<li data-id='${listData[i].id}'><a href='${listData[i].url}'>${listData[i].name}</a></li>`;
+		}
+
+		$('.index_list').append(listHtml);
+	});
+</script>
+</html>
