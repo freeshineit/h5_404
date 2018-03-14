@@ -1,0 +1,109 @@
+
+@bg_color: #5B4AC5;
+
+body {
+  background-color: @bg_color;
+}
+
+#app {
+
+  &.container {
+    background-color: @bg_color;
+  }
+
+  @h5_header_h: 22px;
+  @h5_header_bg: ;
+
+  .h5_header{
+    height: @h5_header_h;
+    background-color: rgba(48, 44, 72, 0.27);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+
+  .h5_content{
+
+    .wall_front { // 正面墙
+      width: 7.7866rem;
+      height: 8.506rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      background-image: url('/images/1_No_Connection/wall_front.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .wall_side{ // 侧面墙
+      width: 2.213rem;
+      height: 9.68rem;
+      position: absolute;
+      top: 0rem;
+      z-index: 1;
+      left: 7.7866rem;
+      background-image: url('/images/1_No_Connection/wall_side.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    } 
+
+    .power_plug{ // 电源插座
+      width: 5.466rem;
+      height: 9.146rem;
+      position: absolute;
+      top: 8.56rem;
+      z-index: 1;
+      right: 0;
+      background-image: url('/images/1_No_Connection/power_plug.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .error_info {
+      position: absolute;
+      top: 10.506rem;
+      left: 1.33rem;
+      width: 5.8rem;
+    }
+
+    .error_title{ // 
+      color: #fff;
+      font-size: .88rem;
+    }
+
+    .error_text{ // 错误文本
+      color: #fff;
+      opacity: .7;
+      font-size: .4rem;
+      margin-top: 0.5rem;
+      font-weight: lighter;
+      line-height: 0.666rem;
+    }
+
+    .op_btn{
+      position: absolute;
+      top: 15.01rem;
+      left: 1.33rem;
+
+      a {
+        display: inline-block;
+        width: 2.373rem;
+        height:  1.27rem;
+        font-size: .4rem;
+        background-color: #fff;
+        border-radius: 1.27rem / 2;
+        line-height: 1.27rem;
+        text-align: center;
+        color: #302C48;
+        font-weight: lighter;
+      }
+    }
+
+  }
+}

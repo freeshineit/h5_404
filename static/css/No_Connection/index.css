@@ -1,0 +1,86 @@
+body {
+  background-color: #5b4ac5;
+}
+#app.container {
+  background-color: #5b4ac5;
+}
+#app .h5_header {
+  height: 22px;
+  background-color: rgba(48, 44, 72, 0.27);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+#app .h5_content .wall_front {
+  width: 7.7866rem;
+  height: 8.506rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-image: url('/images/1_No_Connection/wall_front.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#app .h5_content .wall_side {
+  width: 2.213rem;
+  height: 9.68rem;
+  position: absolute;
+  top: 0rem;
+  z-index: 1;
+  left: 7.7866rem;
+  background-image: url('/images/1_No_Connection/wall_side.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#app .h5_content .power_plug {
+  width: 5.466rem;
+  height: 9.146rem;
+  position: absolute;
+  top: 8.56rem;
+  z-index: 1;
+  right: 0;
+  background-image: url('/images/1_No_Connection/power_plug.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#app .h5_content .error_info {
+  position: absolute;
+  top: 10.506rem;
+  left: 1.33rem;
+  width: 5.8rem;
+}
+#app .h5_content .error_title {
+  color: #fff;
+  font-size: .88rem;
+}
+#app .h5_content .error_text {
+  color: #fff;
+  opacity: .7;
+  font-size: .4rem;
+  margin-top: 0.5rem;
+  font-weight: lighter;
+  line-height: 0.666rem;
+}
+#app .h5_content .op_btn {
+  position: absolute;
+  top: 15.01rem;
+  left: 1.33rem;
+}
+#app .h5_content .op_btn a {
+  display: inline-block;
+  width: 2.373rem;
+  height: 1.27rem;
+  font-size: .4rem;
+  background-color: #fff;
+  border-radius: 0.635rem;
+  line-height: 1.27rem;
+  text-align: center;
+  color: #302C48;
+  font-weight: lighter;
+}

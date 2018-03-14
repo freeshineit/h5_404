@@ -1,0 +1,7 @@
+.index_list > li {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.index_list > li a {
+  color: #333;
+}
