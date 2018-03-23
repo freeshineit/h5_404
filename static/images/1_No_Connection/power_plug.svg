@@ -1,0 +1,44 @@
+
+<svg width="205px" height="343px" viewBox="0 0 205 343" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-6.28279807%" y1="50%" x2="90.5225602%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <ellipse id="path-2" cx="37.3932636" cy="50.1229608" rx="25" ry="4.5"></ellipse>
+        <pattern id="pattern-3" width="512" height="512" x="-499.606736" y="-466.377039" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-4"></use>
+        </pattern>
+        <path d="M64,24 C86.5693582,37.3599356 115.974824,44.0399034 152.216398,44.0399034 C206.578758,44.0399034 259.189885,68.9293133 224.651039,115.142593 C190.112192,161.355872 133.014495,200.411909 151.872955,245.327093 C177.08982,305.386084 290.267678,297.66559 316.362387,345.591775" id="path-5"></path>
+        <filter x="-3.4%" y="-2.6%" width="110.3%" height="108.1%" filterUnits="objectBoundingBox" id="filter-6">
+            <feMorphology radius="4" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="9" dy="9" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="4" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="9" dy="9" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1_No-Connection" transform="translate(-170.000000, -324.000000)">
+            <g id="Group" transform="translate(121.000000, 321.000000)">
+                <g id="Code" transform="translate(184.381761, 195.664946) rotate(9.000000) translate(-184.381761, -195.664946) translate(25.881761, 22.664946)">
+                    <g id="Oval-3" transform="translate(37.393264, 50.122961) rotate(-10.000000) translate(-37.393264, -50.122961) ">
+                        <use fill-opacity="0.2" fill="url(#linearGradient-1)" style="mix-blend-mode: multiply;" xlink:href="#path-2"></use>
+                        <use fill-opacity="0.0599999987" fill="url(#pattern-3)" style="mix-blend-mode: darken;" xlink:href="#path-2"></use>
+                    </g>
+                    <g id="Path-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use stroke="#FFEEAC" stroke-width="8" xlink:href="#path-5"></use>
+                    </g>
+                    <path d="M61.5468922,14.9707051 L67,16.3946644 C68.3169178,19.0723013 68.9753767,21.627238 68.9753767,24.0594744 C68.9753767,26.4917108 68.3169178,28.9145856 67,31.3280988 L61.8771888,33.1691194 C58.5190124,42.4214814 49.9417541,49 39.8907146,49 C36.343308,49 31.6205023,49.0160048 25.7222974,49.0480144 L25,0 C31.1595186,0 36.1230901,0 39.8907146,0 C49.6273938,0 57.9810392,6.17344903 61.5468922,14.9707051 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                    <ellipse id="Oval-2" fill="#7768D3" cx="25.5" cy="24.5" rx="10.5" ry="24.5"></ellipse>
+                    <rect id="Rectangle-6" fill="#FFFFFF" x="0" y="13" width="28" height="7" rx="3.5"></rect>
+                    <rect id="Rectangle-6-Copy" fill="#FFFFFF" x="0" y="29" width="28" height="7" rx="3.5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

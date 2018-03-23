@@ -62,3 +62,24 @@ body * {
 body {
   -webkit-text-size-adjust: 100%;
 }
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 64px;
+  }
+  html body {
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 108px;
+  }
+  html body {
+    margin: 0 auto;
+  }
+}
+body {
+  max-width: 540px;
+  min-width: 320px;
+  margin: 0 auto;
+}
