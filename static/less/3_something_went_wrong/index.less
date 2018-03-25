@@ -30,22 +30,37 @@ body {
   }
 
   .h5_content{
-    .error_label{
-      position: absolute;
-      transform: translate(17.6vw, 0);
-      width: 82.4vw;
-      top: 15.892vh;
-      height: auto;
       img{
         border-width: 0;
         outline: none;
         width: 100%;
         height: auto;
       }
+
+    @img_fly_w:67.733vw;
+    .error_label{
+      position: absolute;
+      width: @img_fly_w;
+      top: 17.09vh;
+      left: 50%;
+      transform: translateX(-@img_fly_w / 2);
+      height: auto;
+      text-align: center;
     }
+    @img_ice_w: 49.6vw;
+    .error_label_2{
+      position: absolute;
+      transform: translateX(-@img_ice_w / 2);
+      width: @img_ice_w;
+      top: 28.035vh;
+      left: 50%;
+      height: auto;
+    }
+
+
     .error_info {
       position: absolute;
-      top: 60.8vh;
+      top: 60.86vh;
       left: 50%;
       transform: translate(-50%, 0);
       text-align: center;
@@ -63,6 +78,7 @@ body {
       padding: 0px 20px;
       font-weight: lighter;
       line-height: 0.666rem;
+      margin-top: 4.4vh
     }
 
     @btn_bg: #70DAAD;
@@ -71,7 +87,7 @@ body {
     @btn_color: #000;
     .op_btn{
       position: absolute;
-      top: 79.4vh;
+      top: 79.46vh;
       left: 50vw;
       a {
         display: inline-block;
