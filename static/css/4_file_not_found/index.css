@@ -1,0 +1,78 @@
+body {
+  background-color: #302c48;
+}
+#app.container {
+  background-color: #262334;
+  width: 100vw;
+  height: 100vh;
+}
+#app .content {
+  width: 100vw;
+}
+#app .h5_header {
+  height: 22px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  opacity: 0.2;
+  background: #302c48;
+}
+#app .h5_content img {
+  border-width: 0;
+  outline: none;
+  width: 100%;
+  height: auto;
+}
+#app .h5_content .error_label {
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  height: auto;
+  text-align: center;
+}
+#app .h5_content .error_label_2 {
+  position: absolute;
+  width: 96vw;
+  top: 9.745vh;
+  left: 0;
+  height: auto;
+  text-align: center;
+}
+#app .h5_content .error_info {
+  position: absolute;
+  top: 60.57vh;
+  left: 13.333vw;
+  width: 6.5rem;
+}
+#app .h5_content .error_title {
+  color: #000;
+  font-size: .533rem;
+}
+#app .h5_content .error_text {
+  color: #000;
+  font-size: .4rem;
+  font-weight: lighter;
+  line-height: 0.666rem;
+  margin-top: 4.4vh;
+}
+#app .h5_content .op_btn {
+  position: absolute;
+  top: 84.407vh;
+  left: 13.333vw;
+}
+#app .h5_content .op_btn a {
+  display: inline-block;
+  width: 3.013rem;
+  height: 1.27rem;
+  font-size: .4rem;
+  background-color: #ffffff;
+  border-radius: 1.5065rem;
+  line-height: 1.27rem;
+  text-align: center;
+  color: #000000;
+  font-weight: lighter;
+  box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.17);
+}

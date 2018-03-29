@@ -13,8 +13,13 @@ router.get('/no_connection_1', function(req, res, next) {
 router.get('/2_404_error', function(req, res, next) {
   res.render('2_404_Error')
 });
+
 router.get('/3_something_went_wrong', function(req, res, next) {
   res.render('3_something_went_wrong')
+});
+
+router.get('/4_file_not_found', function(req, res, next) {
+  res.render('4_file_not_found')
 });
 
 module.exports = router;

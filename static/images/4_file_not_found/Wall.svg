@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="397px" viewBox="0 0 375 397" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Wall</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="6.18317538%" y1="100%" x2="77.7202907%" y2="67.788697%" id="linearGradient-1">
+            <stop stop-color="#262334" offset="0%"></stop>
+            <stop stop-color="#302D43" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4_File-Not-Found" fill="url(#linearGradient-1)">
+            <rect id="Wall" x="0" y="0" width="375" height="397"></rect>
+        </g>
+    </g>
+</svg>

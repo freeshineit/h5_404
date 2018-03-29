@@ -1,5 +1,5 @@
 
-@bg_color: #FFF;
+@bg_color: #302C48;
 
 body {
   background-color: @bg_color;
@@ -7,7 +7,7 @@ body {
 
 #app {
   &.container {
-    background-color: @bg_color;
+    background-color: #262334;
     width: 100vw;
     height: 100vh;
   }
@@ -17,16 +17,17 @@ body {
   }
 
   @h5_header_h: 22px;
-  @h5_header_bg: rgba(250, 250, 252, 1);
+  @h5_header_bg: rgba(48, 44, 72, 1);
 
   .h5_header{
     height: @h5_header_h;
-    background-color: @h5_header_bg;
-    width: 100%;
+    width: 100vw;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 100;
+    opacity: 0.2;
+    background: @h5_header_bg;
   }
 
   .h5_content{
@@ -37,58 +38,55 @@ body {
         height: auto;
       }
 
-    @img_fly_w:67.733vw;
+    @img_wall_w:100vw;
     .error_label{
       position: absolute;
-      width: @img_fly_w;
-      top: 17.09vh;
-      left: 50%;
-      transform: translateX(-@img_fly_w / 2);
+      width: @img_wall_w;
+      top: 0;
+      left: 0;
       height: auto;
       text-align: center;
     }
-    @img_ice_w: 49.6vw;
+
+
+    @img_Artwork_w:96vw;
     .error_label_2{
       position: absolute;
-      transform: translateX(-@img_ice_w / 2);
-      width: @img_ice_w;
-      top: 28.035vh;
-      left: 50%;
+      width: @img_Artwork_w;
+      top: 9.745vh;
+      left: 0;
       height: auto;
+      text-align: center;
     }
-
 
     .error_info {
       position: absolute;
-      top: 60.86vh;
-      left: 50%;
-      transform: translate(-50%, 0);
-      text-align: center;
-      width: 6.933rem;
+      top: 60.57vh;
+      left: 13.333vw;
+      width: 6.5rem;
     }
 
     .error_title{ // 
-      color: #302C48;
+      color: #000;
       font-size: .533rem;
     }
 
     .error_text{ // 错误文本
-      color: #302C48;
+      color: #000;
       font-size: .4rem;
-      padding: 0px 20px;
       font-weight: lighter;
       line-height: 0.666rem;
       margin-top: 4.4vh
     }
 
-    @btn_bg: #70DAAD;
+    @btn_bg: #FFFFFF;
     @btn_w: 3.013rem;
     @btn_h: 1.27rem;
     @btn_color: #000;
     .op_btn{
       position: absolute;
-      top: 79.46vh;
-      left: 50vw;
+      top: 84.407vh;
+      left: 13.333vw;
       a {
         display: inline-block;
         width: @btn_w; 
@@ -100,13 +98,8 @@ body {
         text-align: center;
         color: @btn_color;
         font-weight: lighter;
-        transform: translate(-50%, 0);
-        box-shadow: 0 13px 25px 0 rgba(86,194,167,0.17);
+        box-shadow: 0 5px 25px 0 rgba(0,0,0,0.17);
       }
     }
   }
 }
-
-
-
-
